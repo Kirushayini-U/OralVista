@@ -1,0 +1,42 @@
+# Environment / secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Node.js
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+build/
+**/build/
+
+# Python virtual environments
+venv/
+.venv/
+**/venv/
+**/.venv/
+
+# Python cache
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Windows
+desktop.ini
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*

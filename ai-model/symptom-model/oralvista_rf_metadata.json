@@ -1,0 +1,36 @@
+{
+  "model_name": "OralVista Final Random Forest",
+  "model_version": "2.0",
+  "features": [
+    "tooth_pain",
+    "gum_bleeding",
+    "bad_breath",
+    "mouth_ulcer",
+    "tooth_sensitivity",
+    "swelling",
+    "white_spots",
+    "dry_mouth",
+    "sugar_intake_high",
+    "smoking",
+    "betel_chewing",
+    "brushing_frequency_low",
+    "age",
+    "water_intake_low"
+  ],
+  "classes": [
+    "Dental Caries",
+    "Gingivitis",
+    "Healthy",
+    "Oral Thrush",
+    "Oral Ulcer",
+    "Periodontitis"
+  ],
+  "test_accuracy": 0.7648,
+  "balanced_accuracy": 0.7583,
+  "macro_f1": 0.7302,
+  "confidence_thresholds": {
+    "low": "<40%",
+    "moderate": "40%-69.99%",
+    "high": ">=70%"
+  }
+}

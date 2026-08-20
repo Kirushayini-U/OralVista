@@ -1,0 +1,43 @@
+# Node dependencies
+node_modules/
+**/node_modules/
+
+# Environment files / secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Python virtual environments
+venv/
+.venv/
+**/venv/
+**/.venv/
+
+# Python cache
+__pycache__/
+**/__pycache__/
+*.pyc
+
+# Frontend/build output
+dist/
+**/dist/
+build/
+**/build/
+
+# Logs
+*.log
+npm-debug.log*
+
+# VS Code
+.vscode/
+
+# Windows files
+desktop.ini
+Thumbs.db
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
