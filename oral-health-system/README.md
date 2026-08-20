@@ -63,7 +63,8 @@ OralVista also contains an image-based prediction component. Users can upload an
 A Convolutional Neural Network (CNN) based model is used for image classification, with the implemented image prediction focused on:
 
 - Calculus
-- Healthy
+- Gingivitis
+- hypodontia
 
 ## Technology Stack
 
