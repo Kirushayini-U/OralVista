@@ -4,7 +4,7 @@
 
 OralVista is an AI-based smart oral health web application developed to support early oral health risk assessment, oral health education, and personalized dental assistance. The system is particularly designed with Sri Lankan users in mind and combines machine learning, image-based prediction, artificial intelligence, multilingual support, and dental care information within a single platform.
 
-The system provides separate functionality for registered patients and administrators. Patients can perform symptom-based oral health predictions, upload oral images for analysis, communicate with an AI oral health assistant, access educational content through an AI tutor, locate dental clinics, receive newsletters, and review their prediction history.
+The system provides separate functionality for registered patients and administrators. Patients can perform symptom-based oral health predictions, upload oral images for analysis, communicate with an AI oral health assistant, access educational content through an Quizes, locate dental clinics, receive newsletters, and review their prediction history.
 
 ## Main Features
 
@@ -54,7 +54,7 @@ The prediction model supports oral health categories including:
 - Periodontitis
 - Healthy
 
-Random Forest and XGBoost were considered for the structured symptom-based prediction process.
+Random Forest is considered for the structured symptom-based prediction process.
 
 ## Image-Based Prediction
 
@@ -95,7 +95,6 @@ A Convolutional Neural Network (CNN) based model is used for image classificatio
 - Python
 - Scikit-learn
 - Random Forest
-- XGBoost
 - TensorFlow/Keras
 - CNN
 - SHAP
