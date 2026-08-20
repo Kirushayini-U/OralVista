@@ -33,96 +33,129 @@ const imageTranslations = {
   en: {
     unavailable: "Unavailable",
     noRecords: "No records",
-    heroBadge: "{t.heroBadge}",
+
+    heroBadge: "AI-Powered Oral Image Screening",
     heroTitle: "Oral Image Prediction",
     heroDescription:
-      "{t.heroDescription}",
-    secureProcessing: "{t.secureProcessing}",
-    model: "{t.model}",
-    privateHistory: "{t.privateHistory}",
+      "Upload a clear oral image to receive an AI-assisted oral health prediction, confidence score, class probabilities and relevant oral-health guidance.",
+
+    secureProcessing: "Secure processing",
+    model: "EfficientNetB0 model",
+    privateHistory: "Private history",
+
     upload: "Upload",
     uploadHint: "Select a clear image",
     analyse: "Analyse",
     analyseHint: "AI evaluates the image",
     review: "Review",
     reviewHint: "View guidance and history",
-    modelCoverage: "{t.modelCoverage}",
+
+    modelCoverage: "Image Model Coverage",
     supportedClasses: "Supported Image Classes",
     supportedDescription:
       "OralVista uses an EfficientNetB0 transfer-learning CNN to classify uploaded oral images into one of three supported screening classes.",
+
     calculus: "Calculus",
-    calculusDesc: "{t.calculusDesc}",
+    calculusDesc: "Visible calculus patterns",
     gingivitis: "Gingivitis",
-    gingivitisDesc: "{t.gingivitisDesc}",
+    gingivitisDesc: "Visible gingival inflammation patterns",
     hypodontia: "Hypodontia",
-    hypodontiaDesc: "{t.hypodontiaDesc}",
+    hypodontiaDesc: "Patterns associated with congenitally missing teeth",
+
     coverageNote:
-      "The class with the highest model probability is presented as the {t.aiResult}. This feature is for preliminary screening only and does not provide a confirmed clinical diagnosis.",
-    newAnalysis: "{t.newAnalysis}",
-    predictionHistory: "{t.predictionHistory}",
+      "The class with the highest model probability is presented as the AI result. This feature is for preliminary screening only and does not provide a confirmed clinical diagnosis.",
+
+    newAnalysis: "New Analysis",
+    predictionHistory: "Prediction History",
+
     imageInput: "Image input",
     uploadOralImage: "Upload oral image",
     clear: "Clear",
-    photoGuidelines: "{t.photoGuidelines}",
-    photoSummary: "{t.photoSummary}",
+
+    photoGuidelines: "Photo Guidelines",
+    photoSummary: "Clear, close-up, well-lit oral image",
+
     guideline1Title: "Use good lighting.",
-    guideline1Text: "Take the photo in a bright, evenly lit area and avoid strong shadows.",
+    guideline1Text:
+      "Take the photo in a bright, evenly lit area and avoid strong shadows.",
     guideline2Title: "Keep the camera steady.",
-    guideline2Text: "Make sure the image is clear, sharp and not blurry.",
+    guideline2Text:
+      "Make sure the image is clear, sharp and not blurry.",
     guideline3Title: "Show the teeth clearly.",
-    guideline3Text: "Position the camera so the teeth and surrounding gum line are visible.",
+    guideline3Text:
+      "Position the camera so the teeth and surrounding gum line are visible.",
     guideline4Title: "Take a close-up photo.",
-    guideline4Text: "The teeth should occupy most of the image and remain in focus.",
+    guideline4Text:
+      "The teeth should occupy most of the image and remain in focus.",
     guideline5Title: "Avoid obstructions.",
-    guideline5Text: "Keep fingers, toothbrushes, food and other objects away from the area.",
+    guideline5Text:
+      "Keep fingers, toothbrushes, food and other objects away from the area.",
     guideline6Title: "Use an original image.",
-    guideline6Text: "Do not upload screenshots, X-rays, filtered or heavily edited images.",
+    guideline6Text:
+      "Do not upload screenshots, X-rays, filtered or heavily edited images.",
     guideline7Title: "Upload one image at a time.",
-    guideline7Text: "JPG, JPEG, PNG or WEBP, maximum 5 MB.",
+    guideline7Text:
+      "JPG, JPEG, PNG or WEBP, maximum 5 MB.",
+
     bestResults: "For best results",
-    bestResultsText: "Use a close-up, well-lit image where tooth surfaces and the gum line are clearly visible.",
+    bestResultsText:
+      "Use a close-up, well-lit image where tooth surfaces and the gum line are clearly visible.",
+
     selectedPreview: "Selected oral preview",
-    changeImage: "{t.changeImage}",
+    changeImage: "Change image",
     selectImage: "Select an oral image",
-    browseDevice: "{t.browseDevice}",
-    fileLimit: "{t.fileLimit}",
+    browseDevice: "Browse from your device",
+    fileLimit: "JPG, JPEG, PNG or WEBP · Maximum 5 MB",
+
     ready: "Ready",
     analysing: "Analysing image...",
     analyseImage: "Analyse Image",
+
     privacyTitle: "Privacy-first processing",
     privacyText:
       "The original oral image is not permanently stored. Only a SHA-256 fingerprint and the prediction record are retained.",
+
     aiOutput: "AI output",
     predictionResult: "Prediction result",
     noPrediction: "No prediction yet",
     noPredictionText:
       "Upload an oral image and select Analyse Image to view the prediction and recommendations.",
-    predictedCondition: "{t.predictedCondition}",
-    selectedBecause: "The model selected this class because it received the highest probability.",
-    aiResult: "{t.aiResult}",
+
+    predictedCondition: "Predicted condition",
+    selectedBecause:
+      "The model selected this class because it received the highest probability.",
+    aiResult: "AI Result",
+
     confidenceScore: "Confidence score",
-    confidenceHelp: "{t.confidenceHelp}",
+    confidenceHelp: "Model confidence for this uploaded image",
     confidenceInfo:
       "Confidence shows how strongly the model supports this image classification. A high confidence score does not confirm a clinical diagnosis.",
+
     probabilities: "Prediction probabilities",
-    ranked: "{t.ranked}",
+    ranked: "Ranked highest to lowest",
     softmax: "Softmax output",
     predicted: "Predicted",
+
     nextSteps: "Recommended next steps",
     conditionGuidance: "Condition-based guidance",
     medicalDisclaimer: "Medical disclaimer",
+
     totalRecords: "Total records",
     averageConfidence: "Average confidence",
     latestPrediction: "Latest prediction",
     patientRecords: "Patient records",
+
     historyTitle: "Image Prediction History",
     historyDescription:
       "View, review and manage your previous AI image screening results.",
+
     loading: "Loading...",
     refresh: "Refresh",
     loadingHistory: "Loading prediction history...",
     noPredictionRecords: "No prediction records",
-    noPredictionRecordsText: "Your successful image predictions will appear here.",
+    noPredictionRecordsText:
+      "Your successful image predictions will appear here.",
+
     condition: "Condition",
     confidence: "Confidence",
     filename: "Filename",
@@ -130,43 +163,39 @@ const imageTranslations = {
     date: "Date",
     details: "Details",
     action: "Action",
+
     yes: "Yes",
     no: "No",
     view: "View",
     delete: "Delete",
-    predictionDetails: "{t.predictionDetails}",
-    completeSavedInfo: "Complete information for this saved oral image prediction.",
+
+    predictionDetails: "Prediction Details",
+    completeSavedInfo:
+      "Complete information for this saved oral image prediction.",
     closePredictionDetails: "Close prediction details",
+
     duplicateUpload: "Duplicate upload",
     classProbabilities: "Class probabilities",
     predictionDistribution: "Prediction distribution",
     recommendations: "Recommendations",
     conditionActions: "Condition-based oral-care actions",
+
     fileType: "File type",
     fileSize: "File size",
     modelVersion: "Model version",
     predictionDate: "Prediction date",
     close: "Close",
-    invalidType:
-  "Only JPG, JPEG, PNG and WEBP images are allowed.",
 
-tooLarge:
-  "The image must be 5 MB or smaller.",
+    invalidType: "Only JPG, JPEG, PNG and WEBP images are allowed.",
+    tooLarge: "The image must be 5 MB or smaller.",
+    selectImageError: "Please select an oral image.",
+    duplicateSuccess:
+      "This exact image was analysed before. A new secure history record was created.",
+    analysisSuccess:
+      "Image analysis completed and saved securely.",
+    deleteConfirm: "Delete this prediction record?",
+    deleteSuccess: "Prediction record deleted successfully.",
 
-selectImageError:
-  "Please select an oral image.",
-
-duplicateSuccess:
-  "This exact image was analysed before. A new secure history record was created.",
-
-analysisSuccess:
-  "Image analysis completed and saved securely.",
-
-deleteConfirm:
-  "Delete this prediction record?",
-
-deleteSuccess:
-  "Prediction record deleted successfully.",
     classes: {
       calculus: "Calculus",
       gingivitis: "Gingivitis",
@@ -975,7 +1004,7 @@ export default function ImagePrediction() {
                 {t.photoGuidelines}
               </span>
               <span className="photo-guidelines-summary">
-                {t.clear}, close-up, well-lit oral image
+                {t.photoSummary}
               </span>
               <span className={`guideline-chevron ${guidelinesOpen ? "is-open" : ""}`}>⌄</span>
             </button>
@@ -1098,11 +1127,7 @@ export default function ImagePrediction() {
             <Icon name="shield" />
             <div>
               <strong>{t.privacyTitle}</strong>
-              <span>
-                The original oral image is not permanently
-                stored. Only a SHA-256 fingerprint and the
-                prediction record are retained.
-              </span>
+              <span>{t.privacyText}</span>
             </div>
           </div>
         </form>
