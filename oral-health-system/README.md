@@ -1,101 +1,182 @@
-# AI-Based Smart Oral Health System
+# OralVista – AI-Based Smart Oral Health Prediction and Personalized Dental Assistant System
 
-A clickable full-stack prototype built from your wireframes: 12 patient-facing screens
-and 8 admin screens, wired together with React Router so every button/link actually
-navigates. The frontend runs standalone on mock data — the backend is a real
-Express + MongoDB API ready for you to connect it to.
+## Project Overview
 
-## Tech stack
-- **Frontend:** React 18 (Vite), Tailwind CSS v3, React Router DOM, Axios, lucide-react icons
-- **Backend:** Node.js, Express, MongoDB (Mongoose), JWT auth, bcrypt, Multer
-- **Database:** MongoDB (local or MongoDB Atlas)
+OralVista is an AI-based smart oral health web application developed to support early oral health risk assessment, oral health education, and personalized dental assistance. The system is particularly designed with Sri Lankan users in mind and combines machine learning, image-based prediction, artificial intelligence, multilingual support, and dental care information within a single platform.
 
-## Folder structure
-```
+The system provides separate functionality for registered patients and administrators. Patients can perform symptom-based oral health predictions, upload oral images for analysis, communicate with an AI oral health assistant, access educational content through an AI tutor, locate dental clinics, receive newsletters, and review their prediction history.
+
+## Main Features
+
+- AI-based symptom prediction
+- Oral image analysis using a CNN model
+- AI oral health chat assistant
+- AI oral health tutor and educational content
+- Dental clinic finder
+- Personalized newsletter
+- Prediction history
+- User profile management
+- Multilingual support
+- Secure patient authentication
+- Admin dashboard
+- User management
+- Clinic management
+- Newsletter management
+- System analytics
+
+## Symptom-Based Prediction
+
+The symptom prediction component uses machine learning to assess oral health information entered by the user.
+
+The system considers factors such as:
+
+- Tooth pain
+- Gum bleeding
+- Bad breath
+- Mouth ulcers
+- Tooth sensitivity
+- Swelling
+- White spots
+- Dry mouth
+- High sugar intake
+- Smoking
+- Betel chewing
+- Brushing frequency
+- Age
+- Water intake
+
+The prediction model supports oral health categories including:
+
+- Dental Caries
+- Gingivitis
+- Oral Thrush
+- Oral Ulcer
+- Periodontitis
+- Healthy
+
+Random Forest and XGBoost were considered for the structured symptom-based prediction process.
+
+## Image-Based Prediction
+
+OralVista also contains an image-based prediction component. Users can upload an oral image for AI-assisted analysis.
+
+A Convolutional Neural Network (CNN) based model is used for image classification, with the implemented image prediction focused on:
+
+- Calculus
+- Healthy
+
+## Technology Stack
+
+### Frontend
+
+- React
+- Vite
+- Tailwind CSS
+- React Router
+- Axios
+- Lucide React
+
+### Backend
+
+- Node.js
+- Express.js
+- REST API
+- JWT Authentication
+- bcrypt
+
+### Database
+
+- MongoDB
+- Mongoose
+
+### Artificial Intelligence and Machine Learning
+
+- Python
+- Scikit-learn
+- Random Forest
+- XGBoost
+- TensorFlow/Keras
+- CNN
+- SHAP
+
+## Project Structure
+
+```text
 oral-health-system/
-├── frontend/            # React app (Vite)
-│   └── src/
-│       ├── pages/patient/   # 12 patient/homeowner screens
-│       ├── pages/admin/     # 8 admin screens
-│       ├── components/      # Layouts, nav config, shared UI (StatCard, charts...)
-│       ├── data/mockData.js # Mock data powering the clickable prototype
-│       └── api/axios.js     # Pre-configured axios instance
-└── backend/              # Express + MongoDB API
-    ├── models/            # User, Clinic, Newsletter, Prediction
-    ├── controllers/
-    ├── routes/
-    ├── middleware/         # JWT auth, error handling
-    └── server.js
+│
+├── ai-model/
+│   ├── symptom-model/
+│   ├── oralvista_image_model.keras
+│   └── oralvista_image_model_fixed.keras
+│
+├── oral-health-system/
+│   ├── backend/
+│   └── frontend/
+│
+├── .gitattributes
+├── .gitignore
+└── README.md
 ```
 
-## Running it in VS Code
+## Security
 
-### 1. Frontend (works immediately, no backend required)
+The system incorporates security mechanisms including:
+
+- JWT-based authentication
+- Password hashing
+- Role-based authorization
+- Protected application routes
+- Patient and administrator access control
+- Environment variables for sensitive configuration
+- Account status management
+- Input validation
+
+Sensitive `.env` files are excluded from the GitHub repository using `.gitignore`.
+
+## Running the Project
+
+### 1. Clone the Repository
+
 ```bash
-cd frontend
+git clone <repository-url>
+```
+
+### 2. Install Backend Dependencies
+
+Navigate to the backend directory:
+
+```bash
+cd oral-health-system/backend
+npm install
+```
+
+Create the required `.env` configuration and start the backend:
+
+```bash
+npm run dev
+```
+
+### 3. Install Frontend Dependencies
+
+Navigate to the frontend directory:
+
+```bash
+cd oral-health-system/frontend
 npm install
 npm run dev
 ```
-Open the printed local URL (usually http://localhost:5173). Every screen from the
-wireframes is routed and clickable, using realistic mock data so you can demo the
-full flow right away.
 
-### 2. Backend (optional, needed once you want real data)
-```bash
-cd backend
-npm install
-cp .env.example .env      # then edit MONGO_URI / JWT_SECRET if needed
-npm run dev
-```
-Requires MongoDB running locally (`mongod`) or a MongoDB Atlas connection string in
-`.env`. The API starts on http://localhost:5000/api.
+### 4. Run the AI Service
 
-Once both are running, set `frontend/.env` (`cp .env.example .env`) so
-`VITE_API_URL=http://localhost:5000/api`, and the register/login pages will call the
-real API instead of just navigating on mock data.
+Navigate to the AI model directory, activate the Python virtual environment, install the required Python dependencies, and start the AI API/service according to the project configuration.
 
-## Routes (frontend)
+## Important Note
 
-**Patient / Homeowner flow**
-| Path | Screen |
-|---|---|
-| `/` | Landing Page |
-| `/register` | Register |
-| `/login` | Login |
-| `/dashboard` | Dashboard (after login) |
-| `/symptom-prediction` | Symptom Prediction |
-| `/prediction-result` | Prediction Result |
-| `/image-prediction` | Image Prediction |
-| `/chat-assistant` | AI Chat Assistant |
-| `/ai-tutor` | AI Oral Health Tutor (Quiz) |
-| `/clinic-finder` | Clinic Finder |
-| `/newsletter` | Newsletter |
-| `/profile`, `/settings` | Profile & Settings |
+OralVista is developed as an academic software engineering project. AI-generated oral health predictions are intended to provide preliminary guidance and educational support and should not be considered a replacement for professional diagnosis or treatment by a qualified dental professional.
 
-**Admin flow**
-| Path | Screen |
-|---|---|
-| `/admin/login` | Admin Login |
-| `/admin/dashboard` | Admin Dashboard |
-| `/admin/users` | User Management |
-| `/admin/clinics` | Clinic Management |
-| `/admin/newsletters` | Newsletter Management |
-| `/admin/analytics` | Analytics Dashboard |
-| `/admin/settings` | Settings |
-| `/admin/profile` | Admin Profile |
+## Project
 
-## What "clickable UI" means here
-Every nav link, button, and form in the app is functional inside the React app itself:
-sidebar navigation switches real routes, forms hold state, the symptom quiz submits to
-a result page, file upload shows a live image preview, etc. Nothing is a static image —
-this is what your lecturer means by "create UI" as opposed to a wireframe.
-
-## Next steps to make it production-ready
-1. Connect `predictionRoutes` to your trained Random Forest model (serve it via a small
-   Flask API and call it from `predictionController.js`, or port the model to a JS
-   inference step).
-2. Replace the static map placeholder in Clinic Finder with Google Maps or Leaflet.
-3. Add real authentication guards (`protect` middleware is ready — hook up a
-   `<PrivateRoute>` wrapper in `App.jsx` once login issues real JWTs).
-4. Fix the known dataset issue (low correlation between features and cost in
-   `01_house_design_records.csv`-style data) before training the cost/diagnosis model.
+**Project Name:** OralVista  
+**Project Type:** AI-Based Smart Oral Health Prediction and Personalized Dental Assistant System  
+**Application Type:** Full-Stack Web Application  
+**Primary Context:** Sri Lanka
