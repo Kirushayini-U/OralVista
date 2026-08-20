@@ -61,7 +61,7 @@ const symptomPageTranslations = {
       "Dashboard › Symptom Prediction",
 
     heroBadge:
-      "OralVista AI assessment",
+      "OralVista ML assessment",
 
     heroTitle:
       "Check your oral-health symptoms",
@@ -264,7 +264,7 @@ const symptomPageTranslations = {
       "උපකරණ පුවරුව › රෝග ලක්ෂණ පුරෝකථනය",
 
     heroBadge:
-      "OralVista AI සෞඛ්‍ය ඇගයීම",
+      "OralVista යන්ත්‍ර ඉගෙනුම් සෞඛ්‍ය ඇගයීම",
 
     heroTitle:
       "ඔබගේ මුඛ සෞඛ්‍ය රෝග ලක්ෂණ පරීක්ෂා කරන්න",
@@ -480,7 +480,7 @@ const symptomPageTranslations = {
       "முகப்புப் பலகை › அறிகுறி கணிப்பு",
 
     heroBadge:
-      "OralVista AI சுகாதார மதிப்பீடு",
+      "OralVista இயந்திரக் கற்றல் சுகாதார மதிப்பீடு",
 
     heroTitle:
       "உங்கள் வாய்ச் சுகாதார அறிகுறிகளை சரிபார்க்கவும்",

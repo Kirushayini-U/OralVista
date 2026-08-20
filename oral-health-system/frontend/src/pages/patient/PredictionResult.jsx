@@ -124,7 +124,7 @@ const predictionResultTranslations = {
       "Predicted",
 
     whyPrediction:
-      "Why did the AI make this prediction?",
+      "Why did the model make this prediction?",
 
     shapExplanation:
       "SHAP Explanation",
@@ -160,7 +160,7 @@ const predictionResultTranslations = {
       "Preliminary screening only",
 
     defaultDisclaimer:
-      "This AI result is for preliminary screening and educational purposes only. It is not a confirmed medical diagnosis. Please consult a qualified dental professional.",
+      "This prediction is for preliminary screening and educational purposes only. It is not a confirmed medical diagnosis. Please consult a qualified dental professional.",
 
     conditions: {
       "Dental Caries":
@@ -313,7 +313,7 @@ const predictionResultTranslations = {
       "පුරෝකථනය කළ",
 
     whyPrediction:
-      "AI මෙම පුරෝකථනය කළේ ඇයි?",
+      "ආකෘතිය මෙම පුරෝකථනය කළේ ඇයි?",
 
     shapExplanation:
       "SHAP පැහැදිලි කිරීම",
@@ -349,7 +349,7 @@ const predictionResultTranslations = {
       "මූලික පරීක්ෂාව සඳහා පමණි",
 
     defaultDisclaimer:
-      "මෙම AI ප්‍රතිඵලය මූලික පරීක්ෂාව සහ අධ්‍යාපනික අරමුණු සඳහා පමණි. මෙය තහවුරු කළ වෛද්‍ය රෝග විනිශ්චයක් නොවේ. කරුණාකර සුදුසුකම් ලත් දන්ත වෛද්‍ය වෘත්තිකයෙකු හමුවන්න.",
+      "මෙම පුරෝකථනය මූලික පරීක්ෂාව සහ අධ්‍යාපනික අරමුණු සඳහා පමණි. මෙය තහවුරු කළ වෛද්‍ය රෝග විනිශ්චයක් නොවේ. කරුණාකර සුදුසුකම් ලත් දන්ත වෛද්‍ය වෘත්තිකයෙකු හමුවන්න.",
 
     conditions: {
       "Dental Caries":
@@ -502,7 +502,7 @@ const predictionResultTranslations = {
       "கணிக்கப்பட்டது",
 
     whyPrediction:
-      "AI ஏன் இந்த கணிப்பை செய்தது?",
+      "மாதிரி ஏன் இந்த கணிப்பை செய்தது?",
 
     shapExplanation:
       "SHAP விளக்கம்",
@@ -538,7 +538,7 @@ const predictionResultTranslations = {
       "ஆரம்ப பரிசோதனைக்காக மட்டும்",
 
     defaultDisclaimer:
-      "இந்த AI முடிவு ஆரம்ப பரிசோதனை மற்றும் கல்வி நோக்கங்களுக்காக மட்டுமே. இது உறுதிப்படுத்தப்பட்ட மருத்துவ நோயறிதல் அல்ல. தகுதியான பல் மருத்துவ நிபுணரை அணுகவும்.",
+      "இந்த கணிப்பு ஆரம்ப பரிசோதனை மற்றும் கல்வி நோக்கங்களுக்காக மட்டுமே. இது உறுதிப்படுத்தப்பட்ட மருத்துவ நோயறிதல் அல்ல. தகுதியான பல் மருத்துவ நிபுணரை அணுகவும்.",
 
     conditions: {
       "Dental Caries":

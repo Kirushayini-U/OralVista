@@ -34,10 +34,10 @@ const imageTranslations = {
     unavailable: "Unavailable",
     noRecords: "No records",
 
-    heroBadge: "AI-Powered Oral Image Screening",
+    heroBadge: "Oral Image Screening",
     heroTitle: "Oral Image Prediction",
     heroDescription:
-      "Upload a clear oral image to receive an AI-assisted oral health prediction, confidence score, class probabilities and relevant oral-health guidance.",
+      "Upload a clear oral image to receive an oral health prediction, confidence score, class probabilities and relevant oral-health guidance.",
 
     secureProcessing: "Secure processing",
     model: "EfficientNetB0 model",
@@ -46,7 +46,7 @@ const imageTranslations = {
     upload: "Upload",
     uploadHint: "Select a clear image",
     analyse: "Analyse",
-    analyseHint: "AI evaluates the image",
+    analyseHint: "CNN model analyses the image",
     review: "Review",
     reviewHint: "View guidance and history",
 
@@ -63,7 +63,7 @@ const imageTranslations = {
     hypodontiaDesc: "Patterns associated with congenitally missing teeth",
 
     coverageNote:
-      "The class with the highest model probability is presented as the AI result. This feature is for preliminary screening only and does not provide a confirmed clinical diagnosis.",
+      "The class with the highest model probability is presented as the model result. This feature is for preliminary screening only and does not provide a confirmed clinical diagnosis.",
 
     newAnalysis: "New Analysis",
     predictionHistory: "Prediction History",
@@ -115,7 +115,7 @@ const imageTranslations = {
     privacyText:
       "The original oral image is not permanently stored. Only a SHA-256 fingerprint and the prediction record are retained.",
 
-    aiOutput: "AI output",
+    modelOutput: "Model output",
     predictionResult: "Prediction result",
     noPrediction: "No prediction yet",
     noPredictionText:
@@ -124,7 +124,7 @@ const imageTranslations = {
     predictedCondition: "Predicted condition",
     selectedBecause:
       "The model selected this class because it received the highest probability.",
-    aiResult: "AI Result",
+    modelResult: "Model Result",
 
     confidenceScore: "Confidence score",
     confidenceHelp: "Model confidence for this uploaded image",
@@ -147,7 +147,7 @@ const imageTranslations = {
 
     historyTitle: "Image Prediction History",
     historyDescription:
-      "View, review and manage your previous AI image screening results.",
+      "View, review and manage your previous image screening results.",
 
     loading: "Loading...",
     refresh: "Refresh",
@@ -206,17 +206,17 @@ const imageTranslations = {
   si: {
     unavailable: "ලබාගත නොහැක",
     noRecords: "වාර්තා නොමැත",
-    heroBadge: "AI මත පදනම් වූ මුඛ රූප පරීක්ෂාව",
+    heroBadge: "මුඛ රූප පරීක්ෂාව",
     heroTitle: "මුඛ රූප පුරෝකථනය",
     heroDescription:
-      "පැහැදිලි මුඛ රූපයක් උඩුගත කර AI මත පදනම් වූ මුඛ තත්ත්ව පුරෝකථනයක්, විශ්වාසනීයතා අගයක්, පන්ති සම්භාවිතා සහ අදාළ මුඛ සෞඛ්‍ය මගපෙන්වීම ලබාගන්න.",
+      "පැහැදිලි මුඛ රූපයක් උඩුගත කර මුඛ තත්ත්ව පුරෝකථනයක්, විශ්වාසනීයතා අගයක්, පන්ති සම්භාවිතා සහ අදාළ මුඛ සෞඛ්‍ය මගපෙන්වීම ලබාගන්න.",
     secureProcessing: "ආරක්ෂිත සැකසුම",
     model: "EfficientNetB0 ආකෘතිය",
     privateHistory: "පුද්ගලික ඉතිහාසය",
     upload: "උඩුගත කරන්න",
     uploadHint: "පැහැදිලි රූපයක් තෝරන්න",
     analyse: "විශ්ලේෂණය",
-    analyseHint: "AI රූපය ඇගයීමට ලක් කරයි",
+    analyseHint: "CNN ආකෘතිය රූපය විශ්ලේෂණය කරයි",
     review: "සමාලෝචනය",
     reviewHint: "මගපෙන්වීම සහ ඉතිහාසය බලන්න",
     modelCoverage: "රූප ආකෘති ආවරණය",
@@ -230,7 +230,7 @@ const imageTranslations = {
     hypodontia: "හයිපොඩොන්ටියා",
     hypodontiaDesc: "අහිමි දත් රටා",
     coverageNote:
-      "ඉහළම ආකෘති සම්භාවිතාව ඇති පන්තිය AI ප්‍රතිඵලය ලෙස පෙන්වයි. මෙය මූලික පරීක්ෂාව සඳහා පමණක් වන අතර තහවුරු කළ වෛද්‍ය රෝග විනිශ්චයක් ලබා නොදේ.",
+      "ඉහළම ආකෘති සම්භාවිතාව ඇති පන්තිය ආකෘති ප්‍රතිඵලය ලෙස පෙන්වයි. මෙය මූලික පරීක්ෂාව සඳහා පමණක් වන අතර තහවුරු කළ වෛද්‍ය රෝග විනිශ්චයක් ලබා නොදේ.",
     newAnalysis: "නව විශ්ලේෂණය",
     predictionHistory: "පුරෝකථන ඉතිහාසය",
     imageInput: "රූප ආදානය",
@@ -264,13 +264,13 @@ const imageTranslations = {
     analyseImage: "රූපය විශ්ලේෂණය කරන්න",
     privacyTitle: "පෞද්ගලිකත්වයට ප්‍රමුඛ සැකසුම",
     privacyText: "මුල් මුඛ රූපය ස්ථිරව ගබඩා නොකෙරේ. SHA-256 fingerprint එකක් සහ පුරෝකථන වාර්තාව පමණක් තබා ගනී.",
-    aiOutput: "AI ප්‍රතිදානය",
+    modelOutput: "ආකෘති ප්‍රතිදානය",
     predictionResult: "පුරෝකථන ප්‍රතිඵලය",
     noPrediction: "තවම පුරෝකථනයක් නොමැත",
     noPredictionText: "මුඛ රූපයක් උඩුගත කර පුරෝකථනය සහ නිර්දේශ බැලීමට රූපය විශ්ලේෂණය කරන්න.",
     predictedCondition: "පුරෝකථනය කළ තත්ත්වය",
     selectedBecause: "මෙම පන්තියට ඉහළම සම්භාවිතාව ලැබුණු නිසා ආකෘතිය එය තෝරාගෙන ඇත.",
-    aiResult: "AI ප්‍රතිඵලය",
+    modelResult: "ආකෘති ප්‍රතිඵලය",
     confidenceScore: "විශ්වාසනීයතා අගය",
     confidenceHelp: "මෙම උඩුගත කළ රූපය සඳහා ආකෘති විශ්වාසනීයතාව",
     confidenceInfo: "විශ්වාසනීයතා අගය මෙම රූප වර්ගීකරණයට ආකෘතිය කොතරම් තදින් සහාය දක්වන්නේද පෙන්වයි. ඉහළ අගයක් වෛද්‍ය රෝග විනිශ්චයක් තහවුරු නොකරයි.",
@@ -286,7 +286,7 @@ const imageTranslations = {
     latestPrediction: "නවතම පුරෝකථනය",
     patientRecords: "රෝගී වාර්තා",
     historyTitle: "රූප පුරෝකථන ඉතිහාසය",
-    historyDescription: "ඔබගේ පෙර AI රූප පරීක්ෂණ ප්‍රතිඵල බලන්න, සමාලෝචනය කරන්න සහ කළමනාකරණය කරන්න.",
+    historyDescription: "ඔබගේ පෙර රූප පරීක්ෂණ ප්‍රතිඵල බලන්න, සමාලෝචනය කරන්න සහ කළමනාකරණය කරන්න.",
     loading: "පූරණය වෙමින්...",
     refresh: "යාවත්කාලීන කරන්න",
     loadingHistory: "පුරෝකථන ඉතිහාසය පූරණය වෙමින්...",
@@ -333,16 +333,16 @@ const imageTranslations = {
   ta: {
     unavailable: "கிடைக்கவில்லை",
     noRecords: "பதிவுகள் இல்லை",
-    heroBadge: "AI அடிப்படையிலான வாய்ப் பட பரிசோதனை",
+    heroBadge: "வாய்ப் பட பரிசோதனை",
     heroTitle: "வாய்ப் பட கணிப்பு",
-    heroDescription: "தெளிவான வாய்ப் படத்தை பதிவேற்றி, AI அடிப்படையிலான வாய்ச் சுகாதார நிலை கணிப்பு, நம்பகத்தன்மை மதிப்பெண், வகுப்பு சாத்தியக்கூறுகள் மற்றும் தொடர்புடைய வாய்ச் சுகாதார வழிகாட்டலைப் பெறுங்கள்.",
+    heroDescription: "தெளிவான வாய்ப் படத்தை பதிவேற்றி, வாய்ச் சுகாதார நிலை கணிப்பு, நம்பகத்தன்மை மதிப்பெண், வகுப்பு சாத்தியக்கூறுகள் மற்றும் தொடர்புடைய வாய்ச் சுகாதார வழிகாட்டலைப் பெறுங்கள்.",
     secureProcessing: "பாதுகாப்பான செயலாக்கம்",
     model: "EfficientNetB0 மாதிரி",
     privateHistory: "தனிப்பட்ட வரலாறு",
     upload: "பதிவேற்றம்",
     uploadHint: "தெளிவான படத்தைத் தேர்ந்தெடுக்கவும்",
     analyse: "பகுப்பாய்வு",
-    analyseHint: "AI படத்தை மதிப்பீடு செய்கிறது",
+    analyseHint: "CNN மாதிரி படத்தை பகுப்பாய்வு செய்கிறது",
     review: "மதிப்பாய்வு",
     reviewHint: "வழிகாட்டல் மற்றும் வரலாற்றைப் பார்க்கவும்",
     modelCoverage: "பட மாதிரி உள்ளடக்கம்",
@@ -354,7 +354,7 @@ const imageTranslations = {
     gingivitisDesc: "ஈறு அழற்சி வடிவங்கள்",
     hypodontia: "ஹைப்போடோண்டியா",
     hypodontiaDesc: "பல் இல்லாமை வடிவங்கள்",
-    coverageNote: "மாதிரியின் அதிகபட்ச சாத்தியக்கூறு கொண்ட வகுப்பு AI முடிவாக காட்டப்படும். இது ஆரம்ப பரிசோதனைக்காக மட்டுமே; உறுதிப்படுத்தப்பட்ட மருத்துவ நோயறிதலை வழங்காது.",
+    coverageNote: "மாதிரியின் அதிகபட்ச சாத்தியக்கூறு கொண்ட வகுப்பு மாதிரி முடிவாக காட்டப்படும். இது ஆரம்ப பரிசோதனைக்காக மட்டுமே; உறுதிப்படுத்தப்பட்ட மருத்துவ நோயறிதலை வழங்காது.",
     newAnalysis: "புதிய பகுப்பாய்வு",
     predictionHistory: "கணிப்பு வரலாறு",
     imageInput: "பட உள்ளீடு",
@@ -388,13 +388,13 @@ const imageTranslations = {
     analyseImage: "படத்தை பகுப்பாய்வு செய்யவும்",
     privacyTitle: "தனியுரிமை முன்னுரிமை செயலாக்கம்",
     privacyText: "அசல் வாய்ப் படம் நிரந்தரமாக சேமிக்கப்படாது. SHA-256 fingerprint மற்றும் கணிப்பு பதிவு மட்டுமே வைக்கப்படும்.",
-    aiOutput: "AI வெளியீடு",
+    modelOutput: "மாதிரி வெளியீடு",
     predictionResult: "கணிப்பு முடிவு",
     noPrediction: "இன்னும் கணிப்பு இல்லை",
     noPredictionText: "வாய்ப் படத்தை பதிவேற்றி, கணிப்பும் பரிந்துரைகளும் பார்க்க படத்தை பகுப்பாய்வு செய்யவும்.",
     predictedCondition: "கணிக்கப்பட்ட நிலை",
     selectedBecause: "இந்த வகைக்கு அதிகபட்ச சாத்தியக்கூறு கிடைத்ததால் மாதிரி இதைத் தேர்ந்தெடுத்தது.",
-    aiResult: "AI முடிவு",
+    modelResult: "மாதிரி முடிவு",
     confidenceScore: "நம்பகத்தன்மை மதிப்பெண்",
     confidenceHelp: "இந்த பதிவேற்றப்பட்ட படத்திற்கான மாதிரி நம்பகத்தன்மை",
     confidenceInfo: "நம்பகத்தன்மை மதிப்பெண் இந்த பட வகைப்பாட்டை மாதிரி எவ்வளவு வலுவாக ஆதரிக்கிறது என்பதை காட்டுகிறது. அதிக மதிப்பெண் மருத்துவ நோயறிதலை உறுதிப்படுத்தாது.",
@@ -410,7 +410,7 @@ const imageTranslations = {
     latestPrediction: "சமீபத்திய கணிப்பு",
     patientRecords: "நோயாளர் பதிவுகள்",
     historyTitle: "பட கணிப்பு வரலாறு",
-    historyDescription: "உங்கள் முந்தைய AI பட பரிசோதனை முடிவுகளைப் பார்க்கவும், மதிப்பாய்வு செய்யவும் மற்றும் நிர்வகிக்கவும்.",
+    historyDescription: "உங்கள் முந்தைய பட பரிசோதனை முடிவுகளைப் பார்க்கவும், மதிப்பாய்வு செய்யவும் மற்றும் நிர்வகிக்கவும்.",
     loading: "ஏற்றுகிறது...",
     refresh: "புதுப்பிக்கவும்",
     loadingHistory: "கணிப்பு வரலாறு ஏற்றப்படுகிறது...",
@@ -1137,7 +1137,7 @@ export default function ImagePrediction() {
             <div>
               <span className="step-number">2</span>
               <div>
-                <p className="card-eyebrow">{t.aiOutput}</p>
+                <p className="card-eyebrow">{t.modelOutput}</p>
                 <h2>{t.predictionResult}</h2>
               </div>
             </div>
@@ -1164,7 +1164,7 @@ export default function ImagePrediction() {
                   <p>{t.selectedBecause}</p>
                 </div>
                 <span className="prediction-status-badge">
-                  {t.aiResult}
+                  {t.modelResult}
                 </span>
               </div>
 
