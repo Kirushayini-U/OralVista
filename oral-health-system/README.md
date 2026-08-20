@@ -64,7 +64,7 @@ A Convolutional Neural Network (CNN) based model is used for image classificatio
 
 - Calculus
 - Gingivitis
-- hypodontia
+- Hypodontia
 
 ## Technology Stack
 
